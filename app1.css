@@ -1,0 +1,64 @@
+/*body{
+    background-color:#151b29;
+}
+   #bt4,#bt5{
+    background: none;
+    color:#ffa260;
+    border: 2px solid;
+    margin: 2em 0 0 16em;
+    padding: 1em 1em;
+    font-size: 1em;
+    transition: color 0.5s, border-color 0.5s, box-shadow 0.5s,transform 0.5s;
+  }
+  
+  #bt4:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+  #bt5:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }*/
+  #bt4,#bt5{
+    margin: 2em 0 0 16em;
+  }
+  h1{
+    display:flex;
+    text-decoration: underline;
+    justify-content: center;
+    align-items:center;
+    height:40vh;
+    color:rgb(248, 147, 52);
+  }
+  body{
+    background:url(1Scholarship1.svg);
+  }
+  span{
+    color:black;
+  }
+  #alertv{
+      margin-top: 0.75rem;
+  }
+  @media(max-width:500px){
+    #alertv{
+        width:90%;
+    }
+    h1{
+       display:none;
+    }
+    .cont{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+ }
+/*body{<a href="https://www.freepik.com/vectors/people">People vector created by pikisuperstar - www.freepik.com</a>
+  background: url("https://www.hdwallpapers.in/thumbs/2022/technology_circuit_lines_dots_4k_5k_hd_technology-t2.jpg");
+  background-size: cover;
+}*/

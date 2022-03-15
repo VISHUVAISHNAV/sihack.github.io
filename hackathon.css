@@ -1,0 +1,40 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    background-color: #151b29; 
+    background:url(1Scholarship2.svg);
+}
+
+    
+button {
+    background: none;
+    color:#ffa260;
+    border: 2px solid;
+    margin-top: 2em;
+    padding: 1em 1em;
+    font-size: 1em;
+    transition: color 0.5s, border-color 0.5s, box-shadow 0.5s,transform 0.5s;
+  }
+  
+  button:hover {
+    border-color: #ffa260;
+    color: #ffa260;
+    box-shadow: 0 0.5em 0.5em -0.4em #ffa260;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+  h1{
+      color:#ffa260;
+  }
+ /* a{
+      text-decoration: none;
+      color:#ffa260;
+  }
+  a:hover{
+      color:white;
+  }*/
+  .start{
+      padding: 0 0 0 4.5em;
+  }

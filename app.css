@@ -1,0 +1,18 @@
+/*#bt1{
+    margin:0  75% 0 0;
+}*/
+@media(max-width:500px){
+    #bt1{
+        margin:0 20% 0 0;
+    }
+}
+h1{
+    text-decoration: underline;
+    font-family: 'Oswald', fantasy,sans-serif;
+}
+
+#bt1{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
